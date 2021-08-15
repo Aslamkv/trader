@@ -1,5 +1,5 @@
-# php
-PHP application boilerplate
+# trader
+A PHP application for analyzing stock trading
 
 ### Pre-requisites
 1. PHP >=7.2.0
