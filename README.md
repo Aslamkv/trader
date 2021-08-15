@@ -13,7 +13,7 @@ A PHP application for analyzing stock trading
 
 2. Open terminal and change the directory to the repo directory
 
-> cd php
+> cd trader
 
 3. Install dependencies using composer
 
