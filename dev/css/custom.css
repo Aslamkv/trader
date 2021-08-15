@@ -1,0 +1,20 @@
+html{
+  background: #fdd8da;
+}
+.container{
+  margin-top: 3em;
+  padding:1em;
+}
+.dropdown>*{
+  margin-left: 1em;
+}
+.dropdown>*:first-child{
+  margin-left: 0em;
+}
+figure{
+  float:left;
+  margin:-1em 0em;
+}
+.field{
+  margin-top:1.5em;
+}

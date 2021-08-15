@@ -1,0 +1,37 @@
+{
+  "name": "aslamkv/trader",
+  "description": "A PHP application for analyzing stock trading",
+  "type": "library",
+  "keywords": [
+    "php",
+    "application",
+    "analyzing",
+    "stock",
+    "trading"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aslam",
+      "email": "kv.aslam@gmail.com",
+      "role": "maintainer"
+    }
+  ],
+  "scripts":{
+    "setup":"composer require phpunit/phpunit",
+    "dev":"php -S localhost:8000 -t dev/",
+    "test":"composer dump-autoload && vendor/bin/phpunit --testdox --colors=always --bootstrap vendor/autoload.php tests/"
+  },
+  "require": {
+    "php": ">=7.2.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Trader\\": "src/"
+    },
+    "classmap": [
+      "implementations/"
+    ]
+  }
+}
