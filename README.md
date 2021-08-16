@@ -9,7 +9,7 @@ A PHP application for analyzing stock trading
 
 1. Clone the repo
 
-> git clone git@github.com:Aslamkv/php.git
+> git clone git@github.com:Aslamkv/trader.git
 
 2. Open terminal and change the directory to the repo directory
 
