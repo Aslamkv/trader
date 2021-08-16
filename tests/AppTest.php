@@ -138,11 +138,11 @@ final class AppTest extends TestCase {
       count($analysis['buying_and_selling_dates'])
     );
     $this->assertEquals(
-      '15-08-2021',
+      date('d-m-Y'),
       $analysis['buying_and_selling_dates'][0]['buying_date']
     );
     $this->assertEquals(
-      '30-12-2048',
+      date('d-m-Y',strtotime("+9999 days")),
       $analysis['buying_and_selling_dates'][0]['selling_date']
     );
     $this->assertEquals(
